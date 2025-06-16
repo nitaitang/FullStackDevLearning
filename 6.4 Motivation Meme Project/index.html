@@ -1,0 +1,68 @@
+<!-- 
+  TODO: Create a motivational post website.
+Style it how ever you like. 
+Look at the goal image for inspiration.
+But it must have the following features:
+1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. The text should be white and background black.
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Motivational post</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+            }
+      h1{ font-family: "Libre Baskerville", serif;
+              font-weight: 400;
+              font-style: normal;
+            text-align: center;
+          color: white;
+        text-transform: uppercase;}
+      img{
+        width: 100%;
+        border: 5px solid white;
+      }
+     body{background-color: black;}
+     p{
+      color: white;
+     }
+     div{
+      text-align: center;
+      margin-left: 25%;
+      margin-top: 2.5%;
+      margin-bottom: 2.5%;
+      margin-right: 25%;
+     }
+
+
+    </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<body>
+  
+<div>  
+  <img src="./assets/images/Dipteris conjugata.png">
+  <h1>Dipteris Conjugata</h1>
+  <br>
+  <p>As often as I’m captivated by the sweeping, umbrella-like fronds of Dipteris conjugata, it’s their young, unfurling leaves—evoking the graceful motion of a jellyfish—that hold a strange, enchanting charm. This quiet corner has become my favorite, a place where you can stand close to them. Elsewhere, they usually cling to the unreachable heights of cliffs or hide along trails only found at higher elevations. I’ve traveled this road three times now, and just when I think I’ve grown tired of it, something always pulls me to pause—and take another photo</p>
+</div>  
+
+</body>
+  </head>
+</html>
